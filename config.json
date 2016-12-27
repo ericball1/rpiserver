@@ -1,42 +1,42 @@
 {
-    "bridge": {
-        "name": "Homebridge",
-        "username": "CC:22:3D:E3:CE:30",
-        "port": 51826,
-        "pin": "031-45-154"
+  "bridge": {
+    "name": "Homebridge",
+    "username": "CC:22:3D:E3:CE:30",
+    "port": 51826,
+    "pin": "031-45-154"
+  },
+  "description": "This is an example configuration file with one fake accessory and one fake platform. You can use this as a template for creating your own configuration file containing devices you actually own.",
+  "accessories": [
+    {
+      "accessory": "WeMo",
+      "name": "Eric's Light",
+      "description": "The Light in Eric's Room",
+      "wemo_name": "Erics Room"
     },
-    
-    "description": "This is an example configuration file with one fake accessory and one fake platform. You can use this as a template for creating your own configuration file containing devices you actually own.",
-
-    "accessories": [
-       {
-           "accessory": "WeMo",
-           "name": "Eric's Light",
-           "description": "The Light in Eric's Room",
-           "wemo_name": "Erics Room"
-       },
-       {
-           "accessory": "WeMo",
-           "name": "Outside Light",
-           "description": "Back Door Light.",
-           "wemo_name": "Outside Light"
-       },
-       {
-           "accessory": "WeMo",
-           "name": "Shed Lights",
-           "description": "The Light on The Shed",
-           "wemo_name": "Shed Light"
-       }
-   ],
-
-    "platforms": [
-		"platform": "EcoPlug",
-                "name": "EcoPlug",
-                "plugs": [
-                    {
-                        "name": "Christmas Tree",
-                        "host": "192.168.0.254",
-                        "id": "ECO-78070D54"
-                    }
-	]
+    {
+      "accessory": "WeMo",
+      "name": "Outside Light",
+      "description": "Back Door Light.",
+      "wemo_name": "Outside Light"
+    },
+    {
+      "accessory": "WeMo",
+      "name": "Shed Lights",
+      "description": "The Light on The Shed",
+      "wemo_name": "Shed Light"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": "EcoPlug",
+      "name": "EcoPlug",
+      "plugs": [
+        {
+          "name": "Christmas Tree",
+          "host": "192.168.0.254",
+          "id": "ECO-78070D54"
+        }
+      ]
+    }
+  ]
 }

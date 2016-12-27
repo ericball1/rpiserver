@@ -41,6 +41,15 @@
     "platform": "LiftMaster2",
     "username": "ericball1229@gmail.com",
     "password": "#Tesslucky1"
-}
+},
+       {
+            "platform": "tcc",
+            "name" : "Thermostat",
+            "username" : "jeb1966@gmail.com",
+            "password" : "Mingo0110",
+            "devices" : [
+                  {"deviceID": "299728","name": "House"}
+          	]
+        }
   ]
 }

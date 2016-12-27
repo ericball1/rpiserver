@@ -29,5 +29,14 @@
        }
    ],
 
-    "platforms": []
+    "platforms": [
+		"platform": "EcoPlug",
+                "name": "EcoPlug",
+                "plugs": [
+                    {
+                        "name": "Christmas Tree",
+                        "host": "192.168.0.254",
+                        "id": "ECO-78070D54"
+                    }
+	]
 }
